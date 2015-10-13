@@ -67,7 +67,7 @@ docker run -d --restart=always  \
     -v /var/lib/boot2docker/server-key.pem:/certs/key.pem \
     -p 53:53/udp \
     --name=dns \
-    ahmetalpbalkan/wagl \
+    ahmet/wagl \
       --swarm tcp://swarm:3376 \
       --swarm-cert-path /certs
 ```
