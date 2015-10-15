@@ -18,7 +18,6 @@ requests.
 nodes) and is easy to deploy.
 
 
-
 ### [User Guide](_docs/0-Index.md)
 
 0. [**wagl Command-Line Interface**](_docs/1-Command-Line.md)
@@ -27,7 +26,10 @@ nodes) and is easy to deploy.
 0. [**DNS Forwarding for External Domains**](_docs/4-External-DNS.md)
 0. [**Best Practices**](_docs/5-Best-Practices.md)
 
+### Demo
 
+Watch the demo at: https://www.youtube.com/watch?v=H7dr6lZqw6I
+[![](http://cl.ly/image/330U0j280J27/Image%202015-10-15%20at%201.03.49%20PM.png)](https://www.youtube.com/watch?v=H7dr6lZqw6I)
 
 ### 5-Minute Tutorial
 
