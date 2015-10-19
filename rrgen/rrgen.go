@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/ahmetalpbalkan/wagl/rrstore"
+	"github.com/ahmetalpbalkan/wagl/task"
 	"github.com/miekg/dns"
-	"wagl/rrstore"
-	"wagl/task"
 )
 
 type rrEntry struct {

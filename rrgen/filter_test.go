@@ -3,7 +3,7 @@ package rrgen
 import (
 	"testing"
 
-	"wagl/task"
+	"github.com/ahmetalpbalkan/wagl/task"
 )
 
 func TestFilterTasks(t *testing.T) {

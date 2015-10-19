@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/ahmetalpbalkan/wagl/rrstore"
 	"github.com/miekg/dns"
-	"wagl/rrstore"
 )
 
 func TestHandleExternalOff(t *testing.T) {

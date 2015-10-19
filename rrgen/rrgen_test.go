@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/ahmetalpbalkan/wagl/rrstore"
+	"github.com/ahmetalpbalkan/wagl/task"
 	"github.com/miekg/dns"
-	"wagl/rrstore"
-	"wagl/task"
 )
 
 func Test_insertRR(t *testing.T) {

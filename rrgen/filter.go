@@ -3,7 +3,7 @@ package rrgen
 import (
 	"fmt"
 
-	"wagl/task"
+	"github.com/ahmetalpbalkan/wagl/task"
 )
 
 // FilterFunc determines if a Task can be used, if not provides a reason.

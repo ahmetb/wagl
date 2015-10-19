@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"path/filepath"
 
+	"github.com/ahmetalpbalkan/wagl/tlsconfig"
 	"github.com/miekg/dns"
-	"wagl/tlsconfig"
 )
 
 // tlsConfig constructs a Docker TLS configuration using the certs in the

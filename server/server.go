@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ahmetalpbalkan/wagl/rrstore"
+	"github.com/ahmetalpbalkan/wagl/rrtype"
 	"github.com/miekg/dns"
-	"wagl/rrstore"
-	"wagl/rrtype"
 )
 
 var (

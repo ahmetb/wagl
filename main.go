@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"wagl/clusterdns"
-	"wagl/rrstore"
-	"wagl/server"
-	"wagl/swarm"
+	"github.com/ahmetalpbalkan/wagl/clusterdns"
+	"github.com/ahmetalpbalkan/wagl/rrstore"
+	"github.com/ahmetalpbalkan/wagl/server"
+	"github.com/ahmetalpbalkan/wagl/swarm"
 
 	"github.com/codegangsta/cli"
 )

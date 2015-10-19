@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"wagl/task"
+	"github.com/ahmetalpbalkan/wagl/task"
 )
 
 const (

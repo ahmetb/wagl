@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"wagl/task"
+	"github.com/ahmetalpbalkan/wagl/task"
 )
 
 func TestGetTasks(t *testing.T) {

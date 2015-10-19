@@ -5,10 +5,10 @@ import (
 	"log"
 	"time"
 
-	"wagl/clusterdns/refresh"
-	"wagl/rrgen"
-	"wagl/rrstore"
-	"wagl/task"
+	"github.com/ahmetalpbalkan/wagl/clusterdns/refresh"
+	"github.com/ahmetalpbalkan/wagl/rrgen"
+	"github.com/ahmetalpbalkan/wagl/rrstore"
+	"github.com/ahmetalpbalkan/wagl/task"
 )
 
 // ClusterDriver describes a distributed task execution environment.
