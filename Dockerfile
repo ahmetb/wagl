@@ -1,13 +1,16 @@
 FROM golang:1.5
 
-ENV GOPATH /go
-RUN mkdir -p /go/src/wagl
-ADD . /go/src/wagl
-WORKDIR /go/src/wagl
+ENV GOPATH /go:/go/src/github.com/ahmetalpbalkan/wagl/Godeps/_workspace
+ADD . /go/src/github.com/ahmetalpbalkan/wagl
 
-RUN go get -d -v
+WORKDIR /go/src/github.com/ahmetalpbalkan/wagl
+
 RUN GOOS=linux GOARCH=amd64 \
-	go build -o /wagl
-ENTRYPOINT ["/wagl"]
+	go install
 
+RUN ["wagl", "--help"]
+
+# 53: DNS
 EXPOSE 53/udp
+
+CMD ["wagl"]
