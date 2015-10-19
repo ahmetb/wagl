@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/ahmetalpbalkan/wagl",
+	"GoVersion": "go1.5",
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "1.2.0-159-gcffab77",
+			"Rev": "cffab77ecb4f963ced9e30344eb2b9282ef36887"
+		},
+		{
+			"ImportPath": "github.com/miekg/dns",
+			"Rev": "adeb323cbc8e73c87181c5ac9d393d66bbc4e165"
+		}
+	]
+}
