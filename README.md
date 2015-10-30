@@ -70,7 +70,7 @@ docker run -d --restart=always  \
     -p 53:53/udp \
     --name=dns \
     ahmet/wagl \
-      --swarm tcp://swarm:3376 \
+      wagl --swarm tcp://swarm:3376 \
       --swarm-cert-path /certs
 ```
 
