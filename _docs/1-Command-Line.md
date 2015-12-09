@@ -3,7 +3,7 @@
 Good thing about `wagl` is you almost never need to know about the command-line
 arguments. It has good defaults.
 
-By running `wagl --help` (or `docker run --rm ahmetalpbalkan/wagl --help`) you
+By running `wagl --help` (or `docker run --rm ahmet/wagl --help`) you
 can see the command line arguments: 
 
 ```

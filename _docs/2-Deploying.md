@@ -1,7 +1,7 @@
 # Deploying and Running wagl
 
 Recommended way to deploy wagl is to use its Docker image
-(`ahmetalpbalkan/wagl`) and **run it in a container**.
+(`ahmet/wagl`) and **run it in a container**.
 
 Also, it is easier to deploy `wagl` to the machines where the Swarm managers are
 running at (co-locating). Rest of this guide will assume you will be practicing
@@ -15,7 +15,7 @@ $ docker run -d --restart=always  \
     --link=<swarm-manager-container>:swarm \
     -p 53:53/udp \
     --name=dns \
-    ahmetalpbalkan/wagl \
+    ahmet/wagl \
       --swarm tcp://swarm:3376 \
 ```
 
@@ -43,7 +43,7 @@ $ docker run -d --restart=always  \
     -v /var/lib/boot2docker/server-key.pem:/certs/key.pem \
     -p 53:53/udp \
     --name=dns \
-    ahmetalpbalkan/wagl \
+    ahmet/wagl \
       --swarm tcp://swarm:3376 \
       --swarm-cert-path /certs
 ```
