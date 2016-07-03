@@ -1,4 +1,4 @@
-> **As of Docker v1.12 `wagl` is now obsolete**, as Swarm is integrated into
+> :warning: **As of Docker v1.12 `wagl` is now obsolete**, as Swarm is integrated into
 > the Docker Engine and has built in service discovery and routing
 > features. You should not be using `wagl` anymore. :warning:
 
