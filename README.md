@@ -1,4 +1,8 @@
-## wagl: DNS Service Discovery for Docker Swarm
+> **As of Docker v1.12 `wagl` is now obsolete**, as Swarm is integrated into
+> the Docker Engine and has built in service discovery and routing
+> features. You should not be using `wagl` anymore. :warning:
+
+## wagl: DNS Service Discovery for Docker Swarm v1.0
 
 `wagl` runs inside your [Docker Swarm][sw] cluster and provides
 DNS-based service discovery (using DNS A and SRV records) and
